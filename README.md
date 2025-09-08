@@ -50,12 +50,14 @@ Intercambio Energético ( \Delta E ):
 
 ## Bibliografía util
 -> Contreras, E., Stuchlik, Z. Energy exchange between Tolman VII and a polytropic fluid. Eur. Phys. J. C 82, 365 (2022). https://doi.org/10.1140/epjc/s10052-022-10350-9
+
 -> OVALLE, J. & CONTRERAS, E. & STUCHLIK, Z, 2022. Energy exchange between relativistic
 fluids: the polytropic case. Eur. Phys. J. C. Available from DOI: https://doi.org/10.1140/epjc/s10052-022-10168-5.
 
 
 
-
+-> OVALLE, J., 2019. Decoupling gravitational sources in general relativity: The extended case.
+Physics Letters B. Vol. 788, pp. 213–218. ISSN 0370-2693. Available from DOI: https://doi.org/10.1016/j.physletb.2018.11.029.
 
 
 
