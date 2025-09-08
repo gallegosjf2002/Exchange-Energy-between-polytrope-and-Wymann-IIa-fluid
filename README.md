@@ -13,6 +13,8 @@ FINAL_GRÁFICAS_PRESENTACION.nb: Este notebook se utiliza para generar los gráf
 
 FINAL_GRÁFICAS_PRESENTACION.pdf: Un archivo PDF que contiene una selección de los gráficos más importantes del proyecto, listos para su visualización y uso en presentaciones.
 
+INTERCAMBIO ENÉRGETICO ENTRE UN POLITROPO Y UN FLUIDO TIPO WYMAN IIa.pdf: Archivo PDF donde se encuentra el escrito del trabajo de tesis
+
 README.md: Este archivo, que estás leyendo ahora, proporciona una visión general del proyecto, la estructura del repositorio y una guía para entender el contenido.
 
 TFG_gallegos_quizhpe_integral_numerica_v3_y_v5.nb: Este archivo contiene la versión final del código utilizado para resolver el problema de la integral numérica, un componente crucial para los cálculos de la tesis.
@@ -56,7 +58,7 @@ IIa.
 ### Anisotropía e Intercambio Energético
 -> Anisotropía: La anisotropía del modelo es positiva y aumenta con el radio, confirmando que la presión tangencial es mayor que la radial. La anisotropía es nula en el centro de la estrella, lo que indica un estado de equilibrio en el núcleo.
 
-Intercambio Energético ( \Delta E ):
+Intercambio Energético ( $\Delta E$ ):
 
 -> El intercambio energético es positivo y creciente desde el centro hacia la superficie, siendo nulo en el centro.
 
