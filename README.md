@@ -20,6 +20,7 @@ Los archivos están organizados para facilitar la comprensión y reproducibilida
 * `INTERCAMBIO ENÉRGETICO ENTRE UN POLITROPO Y UN FLUIDO TIPO WYMAN IIA.pdf`: El documento completo de la tesis.
 * `FINAL_GRÁFICAS_PRESENTACION.nb`: Notebook usado para generar los gráficos y visualizaciones para la presentación.
 * `FINAL_GRÁFICAS_PRESENTACION.pdf`: Un PDF que contiene una selección de los gráficos más importantes del proyecto, listos para su visualización.
+* `Estudio_anisotropico_de_un_sistema_acoplado_Politropo_Wyman_IIa_POSTER.pdf`: PDF de la presentación de póster científico usado para la XI Escuela de Astronomía y Astrofísica organizado por el Observatorio Astronómico de Quito.
 
 ---
 
