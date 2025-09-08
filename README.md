@@ -3,6 +3,22 @@ Este repositorio contiene el desarrollo y la implementación de los modelos pres
 
 El proyecto aborda el intercambio de energía entre un fluido relativista y un politropo en el marco de la desacoplación gravitacional mediante la Deformación Geométrica Mínima Extendida (MGDe).
 
+##  Descripción de Archivos y Carpetas
+FINAL.nb: Este archivo es el notebook principal del proyecto. Contiene la secuencia completa de cálculos, análisis y la generación de los resultados finales.
+
+FINAL_C1.nb, FINAL_C2.nb, FINAL_C3.nb, FINAL_C4.nb: Estos notebooks están dedicados a la elaboración de los resultados de cada uno de los casos realistas que se llego a obtener
+
+FINAL_GRÁFICAS_PRESENTACION.nb: Este notebook se utiliza para generar los gráficos y visualizaciones presentadas en la sustentación del proyecto. Contiene el código específico para de las gráficas de los resultados unidas
+
+
+FINAL_GRÁFICAS_PRESENTACION.pdf: Un archivo PDF que contiene una selección de los gráficos más importantes del proyecto, listos para su visualización y uso en presentaciones.
+
+README.md: Este archivo, que estás leyendo ahora, proporciona una visión general del proyecto, la estructura del repositorio y una guía para entender el contenido.
+
+TFG_gallegos_quizhpe_integral_numerica_v3_y_v5.nb: Este archivo contiene la versión final del código utilizado para resolver el problema de la integral numérica, un componente crucial para los cálculos de la tesis.
+
+tolmancorregido.nb: Un notebook que incluye correcciones y una versión mejorada de un modelo previo basado en el fluido de Tolman IV, sirviendo como referencia o base para el desarrollo del modelo actual.
+
 ## Objetivos de la investigación
 ### Objetivo General
 -> Analizar el intercambio energ´etico relativista entre un politropo y un fluido tipo Wyman
