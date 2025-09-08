@@ -44,9 +44,10 @@ Intercambio Energético ($\Delta E$):
     -> Un valor $\Delta E > 0$ implica que el fluido politrópico cede energía al fluido perfecto circundante para mantener la coexistencia dentro del cuerpo estelar.
     -> Se observa que una disminución en la constante $K$ genera una zona de mayor intercambio energético. Este intercambio es más elevado en configuraciones más compactas.
 ## Bibliografía util
+-> Contreras, E., Stuchlik, Z. Energy exchange between Tolman VII and a polytropic fluid. Eur. Phys. J. C 82, 365 (2022). https://doi.org/10.1140/epjc/s10052-022-10350-9
 -> OVALLE, J. & CONTRERAS, E. & STUCHLIK, Z, 2022. Energy exchange between relativistic
-fluids: the polytropic case. Eur. Phys. J. C. Available from DOI: https://doi.org/
-10.1140/epjc/s10052-022-10168-5.
+fluids: the polytropic case. Eur. Phys. J. C. Available from DOI: https://doi.org/10.1140/epjc/s10052-022-10168-5.
+
 
 
 
