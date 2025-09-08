@@ -1,83 +1,63 @@
 # Exchange-Energy-between-polytrope-and-Wymann-IIa-fluid
-Este repositorio contiene el desarrollo y la implementación de los modelos presentados en mi trabajo de titulación en Física Teórica (ESPOCH).
 
-El proyecto aborda el intercambio de energía entre un fluido relativista y un politropo en el marco de la desacoplación gravitacional mediante la Deformación Geométrica Mínima Extendida (MGDe).
+Este repositorio contiene el código y la documentación de mi trabajo de titulación en Física Teórica (ESPOCH), que modela el **intercambio de energía** entre un **fluido relativista** y un **politropo** en el marco de la **desacoplación gravitacional** por **Deformación Geométrica Mínima Extendida (MGDe)**.
 
-##  Descripción de Archivos y Carpetas
-FINAL.nb: Este archivo es el notebook principal del proyecto. Contiene la secuencia completa de cálculos, análisis y la generación de los resultados finales.
+---
 
-FINAL_C1.nb, FINAL_C2.nb, FINAL_C3.nb, FINAL_C4.nb: Estos notebooks están dedicados a la elaboración de los resultados de cada uno de los casos realistas que se llego a obtener
+## Estructura del Repositorio
 
-FINAL_GRÁFICAS_PRESENTACION.nb: Este notebook se utiliza para generar los gráficos y visualizaciones presentadas en la sustentación del proyecto. Contiene el código específico para de las gráficas de los resultados unidas
+Los archivos están organizados para facilitar la comprensión y reproducibilidad del proyecto.
 
+### Código Fuente y Análisis
 
-FINAL_GRÁFICAS_PRESENTACION.pdf: Un archivo PDF que contiene una selección de los gráficos más importantes del proyecto, listos para su visualización y uso en presentaciones.
+* `FINAL.nb`: El notebook principal que contiene todos los cálculos y análisis, desde la formulación inicial hasta la generación de los resultados finales.
+* `FINAL_C1.nb`, `FINAL_C2.nb`, `FINAL_C3.nb`, `FINAL_C4.nb`: Notebooks que elaboran los resultados específicos para los casos realistas analizados en los capítulos de la tesis.
+* `TFG_gallegos_quizhpe_integral_numerica_v3_y_v5.nb`: Archivo con el código final para resolver la integral numérica, un componente clave de los cálculos.
+* `tolmancorregido.nb`: Notebook de referencia que incluye correcciones y mejoras a un modelo previo basado en el fluido de Tolman IV.
 
-INTERCAMBIO ENÉRGETICO ENTRE UN POLITROPO Y UN FLUIDO TIPO WYMAN IIa.pdf: Archivo PDF donde se encuentra el escrito del trabajo de tesis
+### Documentación y Visualizaciones
 
-README.md: Este archivo, que estás leyendo ahora, proporciona una visión general del proyecto, la estructura del repositorio y una guía para entender el contenido.
+* `INTERCAMBIO ENÉRGETICO ENTRE UN POLITROPO Y UN FLUIDO TIPO WYMAN IIA.pdf`: El documento completo de la tesis.
+* `FINAL_GRÁFICAS_PRESENTACION.nb`: Notebook usado para generar los gráficos y visualizaciones para la presentación.
+* `FINAL_GRÁFICAS_PRESENTACION.pdf`: Un PDF que contiene una selección de los gráficos más importantes del proyecto, listos para su visualización.
 
-TFG_gallegos_quizhpe_integral_numerica_v3_y_v5.nb: Este archivo contiene la versión final del código utilizado para resolver el problema de la integral numérica, un componente crucial para los cálculos de la tesis.
+---
 
-tolmancorregido.nb: Un notebook que incluye correcciones y una versión mejorada de un modelo previo basado en el fluido de Tolman IV, sirviendo como referencia o base para el desarrollo del modelo actual.
+## Objetivos de la Investigación
 
-## Objetivos de la investigación
 ### Objetivo General
--> Analizar el intercambio energ´etico relativista entre un politropo y un fluido tipo Wyman
-IIa.
+Analizar el intercambio energético relativista entre un politropo y un fluido tipo Wyman IIa.
 
-### Objetivos específicos
--> Realizar un estudio bibliográfico del intercambio energético entre fluidos relativistas.
+### Objetivos Específicos
+* Realizar un estudio bibliográfico sobre el intercambio energético en fluidos relativistas.
+* Estudiar el método de desacoplamiento gravitacional por deformación mínima extendida.
+* Utilizar un fluido isótropo tipo Wyman IIa como "semilla" en el algoritmo de (Ovalle et al., 2022) para resolver el problema.
+* Analizar el intercambio energético entre ambas fuentes gravitacionales.
 
--> Estudiar el desacople gravitacional por deformación mínima extendida.
+---
 
--> Emplear la semilla de fluido isótropo de tipo Wyman IIa en el algoritmo desarrollado por
-(Ovalle et al., 2022) para resolver nuestro problema.
+## Resultados Principales
 
-->Analizar el intercambio energético de ambas fuentes gravitacionales
+El estudio arrojó las siguientes conclusiones:
 
-## Resultados
 ### Aceptabilidad Física y Comportamiento del Modelo
-
--> Comportamiento del sector material: La densidad de energía ($\rho$) y las presiones radial ($p_r$) y tangencial ($p_t$) son funciones positivas, continuas y monótonamente decrecientes desde el centro de la estrella ($r=0$) hacia la superficie. Se observa que la presión tangencial domina a la presión radial ($p_t(r)>p_r(r)$), lo cual es una característica de la anisotropía. La presión radial se anula en la superficie estelar, cumpliendo con la condición necesaria ($p_r(R) = 0$).
-
--> Influencia de la constante politrópica ($K$): Los valores del sector material ($\rho, p_r, p_t$) disminuyen a medida que la constante $K$ aumenta. Se observa un comportamiento más suave de la presión tangencial en comparación con la presión radial.
-
--> Comportamiento de las métricas: Las componentes métricas del espacio-tiempo son positivas y finitas. La métrica radial ($e^{-\lambda}$) es monótonamente decreciente, mientras que la métrica temporal ($e^{\nu}$) es monótonamente creciente. Este comportamiento es esencial para la viabilidad del modelo.
+* **Sector material**: La densidad de energía ($\rho$) y las presiones radial ($p_r$) y tangencial ($p_t$) son positivas y decrecen desde el centro. La presión tangencial es mayor que la radial ($p_t > p_r$), una característica de la **anisotropía**.
+* **Influencia del parámetro $K$**: Al aumentar la constante politrópica $K$, los valores del sector material disminuyen.
+* **Métricas**: Las componentes métricas del espacio-tiempo, $e^{-\lambda}$ y $e^{\nu}$, son positivas y se comportan de forma monótona, asegurando la viabilidad del modelo.
 
 ### Condiciones de Estabilidad y Causalidad
-
--> Condición de Energía Dominante (DEC): se satisface para todos los valores de $K$ analizados, lo que valida la plausibilidad física del modelo.
-
--> Condición de Energía Fuerte (SEC): se cumple para $K = 0.44$ y $K = 0.47$, indicando la estabilidad de estos modelos estelares. Sin embargo, se viola para $K = 0.43$, sugiriendo que este modelo en particular es físicamente inestable.
-
--> Corrimiento al rojo ($Z$): La función de corrimiento al rojo es positiva y decreciente. Para los modelos estables, el valor en la superficie es menor que el límite $3.842$. Para el modelo inestable ($K=0.43$), el valor es $Z=0.735938$, que es menor al límite universal de $5.211$.
-
--> Condición de causalidad: El modelo cumple con la condición de causalidad, ya que las velocidades del sonido radial ($v_r^2$) y tangencial ($v_t^2$) en el interior de la estrella no exceden la velocidad de la luz ($c=1$).
+* **Condiciones de Energía**: La **Condición de Energía Dominante (DEC)** se cumple para todos los casos. Sin embargo, la **Condición de Energía Fuerte (SEC)** solo se satisface para los modelos con $K=0.44$ y $K=0.47$, lo que los hace **físicamente estables**. El modelo con $K=0.43$ es **inestable** al violar esta condición.
+* **Corrimiento al rojo ($Z$)**: Es positivo y decreciente. Sus valores en la superficie están dentro de los límites físicos.
+* **Condición de Causalidad**: Las velocidades del sonido radial y tangencial no superan la velocidad de la luz, lo que valida el modelo.
 
 ### Anisotropía e Intercambio Energético
--> Anisotropía: La anisotropía del modelo es positiva y aumenta con el radio, confirmando que la presión tangencial es mayor que la radial. La anisotropía es nula en el centro de la estrella, lo que indica un estado de equilibrio en el núcleo.
+* **Anisotropía**: Es positiva y aumenta con el radio. Es nula en el centro, lo que indica un núcleo en equilibrio.
+* **Intercambio Energético ($\Delta E$)**: Es positivo y creciente desde el centro hacia la superficie. Un valor $\Delta E > 0$ significa que el politropo **cede energía** al fluido perfecto para coexistir. A menor valor de $K$, mayor es la zona de intercambio energético.
 
-Intercambio Energético ( $\Delta E$ ):
+---
 
--> El intercambio energético es positivo y creciente desde el centro hacia la superficie, siendo nulo en el centro.
+## Referencias Clave
 
--> Un valor $\Delta E > 0$ implica que el fluido politrópico cede energía al fluido perfecto circundante para mantener la coexistencia dentro del cuerpo estelar.
-
--> Se observa que una disminución en la constante $K$ genera una zona de mayor intercambio energético. Este intercambio es más elevado en configuraciones más compactas.
-
-## Bibliografía util
--> Contreras, E., Stuchlik, Z. Energy exchange between Tolman VII and a polytropic fluid. Eur. Phys. J. C 82, 365 (2022). https://doi.org/10.1140/epjc/s10052-022-10350-9
-
--> OVALLE, J. & CONTRERAS, E. & STUCHLIK, Z, 2022. Energy exchange between relativistic
-fluids: the polytropic case. Eur. Phys. J. C. Available from DOI: https://doi.org/10.1140/epjc/s10052-022-10168-5.
-
-
-
--> OVALLE, J., 2019. Decoupling gravitational sources in general relativity: The extended case.
-Physics Letters B. Vol. 788, pp. 213–218. ISSN 0370-2693. Available from DOI: https://doi.org/10.1016/j.physletb.2018.11.029.
-
-
-
-
-
+* Contreras, E., & Stuchlik, Z. (2022). **Energy exchange between Tolman VII and a polytropic fluid.** *European Physical Journal C, 82*(4), 365.
+* Ovalle, J., Contreras, E., & Stuchlik, Z. (2022). **Energy exchange between relativistic fluids: the polytropic case.** *European Physical Journal C, 82*(2), 168.
+* Ovalle, J. (2019). **Decoupling gravitational sources in general relativity: The extended case.** *Physics Letters B, 788*, 213–218.
